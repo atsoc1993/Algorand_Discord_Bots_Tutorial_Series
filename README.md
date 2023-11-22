@@ -1,9 +1,11 @@
 ## Algorand_Discord_Bots_Tutorial_Series
-This repository is a guide for discord bot development on Algorand blockchain, meant to be paired with the released youtube series
-TERMINAL INSTALLATIONS --- DO NOT USE IN UBUNTU:
+
+This repository is a guide for discord bot development on Algorand blockchain, meant to be paired with the youtube series.
 
 ## Youtube Link
 https://www.youtube.com/watch?v=JjmH-KA7UcQ
+
+
 
 # USE THE BELOW IN REGULAR TERMINAL SHELL, NOT UBUNTU
 # PIP
