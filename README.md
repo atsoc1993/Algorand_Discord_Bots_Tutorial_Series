@@ -2,6 +2,9 @@
 This repository is a guide for discord bot development on Algorand blockchain, meant to be paired with the released youtube series
 TERMINAL INSTALLATIONS --- DO NOT USE IN UBUNTU:
 
+##Youtube Link
+https://www.youtube.com/watch?v=JjmH-KA7UcQ
+
 # USE THE BELOW IN REGULAR TERMINAL SHELL, NOT UBUNTU
 # PIP
 ```
