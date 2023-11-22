@@ -72,4 +72,7 @@ https://developer.algorand.org/docs/run-a-node/setup/install/
 https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.catchpoint
 
 ## Discord Developer Portal
-https://discord.com/developers
+https://discord.com/developers- [Install Python](https://www.python.org/downloads/)
+- [Install Visual Studio Code](https://code.visualstudio.com/Download)
+- [Microsoft Store Ubuntu LTS](https://www.microsoft.com/store/productId/9MTTCL66CPXJ?ocid=pdpshare)
+
