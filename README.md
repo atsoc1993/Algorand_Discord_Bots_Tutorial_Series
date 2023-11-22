@@ -1,19 +1,20 @@
-# Algorand_Discord_Bots_Tutorial_Series
+## Algorand_Discord_Bots_Tutorial_Series
 This repository is a guide for discord bot development on Algorand blockchain, meant to be paired with the released youtube series
 TERMINAL INSTALLATIONS --- DO NOT USE IN UBUNTU:
 
-## PIP
+# USE THE BELOW IN REGULAR TERMINAL SHELL, NOT UBUNTU
+# PIP
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-## AIOHTTP --- USE BEFORE INSTALLING DISCORD.PY
+# AIOHTTP --- USE BEFORE INSTALLING DISCORD.PY
 ```
 pip install aiohttp>=3.9.0b0
 ```
 
-## Discord.py
+# Discord.py
 ```
 pip install discord.py
 ```
@@ -23,7 +24,7 @@ pip install discord.py
 pip3 install py-algorand-sdk
 ```
 
-## UBUNTU TERMINAL INSTALLATIONS --- USE IN UBUNTU:
+## USE ALL TERMINAL COMMANDS BELOW IN THE UBUNTU TERMINAL SHELL, NOT REGULAR TERMINAL
 
 # Algorand Node Installation
 ```sudo apt-get update
