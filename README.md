@@ -75,6 +75,7 @@ mkdir NameOfFolderHere ---creates a folder
 ls ---list all folders available in this directory
 cd NameOfFolderHere ---enter the folder
 cd .. ---Exit directory/Move back out from folder
+rm -r NameOfFolderHere ---Delete a directory and all contents recursively
 ```
 
 ## LINKS:
