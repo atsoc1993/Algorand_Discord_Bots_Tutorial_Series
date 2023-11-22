@@ -27,7 +27,8 @@ pip3 install py-algorand-sdk
 ## USE ALL TERMINAL COMMANDS BELOW IN THE UBUNTU TERMINAL SHELL, NOT REGULAR TERMINAL
 
 # Algorand Node Installation
-```sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get install -y gnupg2 curl software-properties-common
 curl -o - https://releases.algorand.com/key.pub | sudo tee /etc/apt/trusted.gpg.d/algorand.asc
 sudo add-apt-repository "deb [arch=amd64] https://releases.algorand.com/deb/ stable main"
@@ -36,7 +37,8 @@ sudo apt-get install -y algorand-devtools
 ```
 
 # Preparing/Running Algorand Node
-```mkdir ~/node
+```
+mkdir ~/node
 cd ~/node
 curl https://raw.githubusercontent.com/algorand/go-algorand/rel/stable/cmd/updater/update.sh -O
 chmod 744 update.sh
