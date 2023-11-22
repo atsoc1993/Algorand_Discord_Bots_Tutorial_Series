@@ -48,21 +48,21 @@ goal node catchup GetTheCatchPointFromLinkBelow -d data
 https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.catchpoint
 
 # Algorand Node Commands
-goal node start -d data
-
-goal node restart -d data
-
-goal node stop -d data
-
-goal node catchup GetTheCatchPointFromLinkBelow -d data
+'''
+goal node start -d data (starts the node)
+goal node restart -d data (restarts the node)
+goal node stop -d data (stops the node)
+goal node catchup GetTheCatchPointFromCatchPoointLink -d data (Catchup the node)
+'''
 
 # Basic Terminal Commands
+'''
 clear ---clears the terminal
 mkdir NameOfFolderHere ---creates a folder
 ls ---list all folders available in this directory
 cd NameOfFolderHere ---enter the folder
 cd .. ---Exit directory/Move back out from folder
-
+'''
 
 ## LINKS:
 
