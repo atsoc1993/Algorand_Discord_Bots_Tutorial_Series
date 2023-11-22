@@ -2,9 +2,11 @@
 This repository is a guide for discord bot development on Algorand blockchain, meant to be paired with the released youtube series
 TERMINAL INSTALLATIONS --- DO NOT USE IN UBUNTU:
 
-#PIP
-```curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py```
+# PIP
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
 
 AIOHTTP --- USE BEFORE INSTALLING DISCORD.PY
 pip install aiohttp>=3.9.0b0
