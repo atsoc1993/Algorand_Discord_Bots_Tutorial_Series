@@ -2,24 +2,24 @@
 This repository is a guide for discord bot development on Algorand blockchain, meant to be paired with the released youtube series
 TERMINAL INSTALLATIONS --- DO NOT USE IN UBUNTU:
 
-# PIP
+## PIP
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python get-pip.py
 ```
 
-AIOHTTP --- USE BEFORE INSTALLING DISCORD.PY
+## AIOHTTP --- USE BEFORE INSTALLING DISCORD.PY
 pip install aiohttp>=3.9.0b0
 
-Discord.py
+## Discord.py
 pip install discord.py
 
-Python AlgoSDK
+## Python AlgoSDK
 pip3 install py-algorand-sdk
 
-UBUNTU TERMINAL INSTALLATIONS --- USE IN UBUNTU:
+## UBUNTU TERMINAL INSTALLATIONS --- USE IN UBUNTU:
 
-Algorand Node Installation
+## Algorand Node Installation
 sudo apt-get update
 sudo apt-get install -y gnupg2 curl software-properties-common
 curl -o - https://releases.algorand.com/key.pub | sudo tee /etc/apt/trusted.gpg.d/algorand.asc
@@ -27,7 +27,7 @@ sudo add-apt-repository "deb [arch=amd64] https://releases.algorand.com/deb/ sta
 sudo apt-get update
 sudo apt-get install -y algorand-devtools
 
-Preparing/Running Algorand Node
+## Preparing/Running Algorand Node
 mkdir ~/node
 cd ~/node
 curl https://raw.githubusercontent.com/algorand/go-algorand/rel/stable/cmd/updater/update.sh -O
@@ -36,19 +36,16 @@ chmod 744 update.sh
 goal node start -d data 
 goal node catchup GetTheCatchPointFromLinkBelow -d data
 
-Current Catchpoint:
+## Catchpoint Link for Mainnet
 https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.catchpoint
 
-Algorand Node Commands
+## Algorand Node Commands
 goal node start -d data
 goal node restart -d data
 goal node stop -d data
 goal node catchup GetTheCatchPointFromLinkBelow -d data
 
-Catchpoint Link for Mainnet
-https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.catchpoint
-
-Basic Terminal Commands
+## Basic Terminal Commands
 clear ---clears the terminal
 mkdir NameOfFolderHere ---creates a folder
 ls ---list all folders available in this directory
@@ -56,23 +53,23 @@ cd NameOfFolderHere ---enter the folder
 cd .. ---Exit directory/Move back out from folder
 
 
-LINKS:
+## LINKS:
 
-Install Python
+## Install Python
 https://www.python.org/downloads/
 SELECT THE ADD PYTHON TO PATH OPTION!!!
 
-Install Visual Studio Code
+## Install Visual Studio Code
 https://code.visualstudio.com/Download
 
-Microsoft Store Ubuntu LTS
+## Microsoft Store Ubuntu LTS
 https://www.microsoft.com/store/productId/9MTTCL66CPXJ?ocid=pdpshare
 
-Algorand Node Documentation
+## Algorand Node Documentation
 https://developer.algorand.org/docs/run-a-node/setup/install/
 
-Algorand Node Mainnet Catchpoint:
+## Algorand Node Mainnet Catchpoint:
 https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.catchpoint
 
-Discord Developer Portal
+## Discord Developer Portal
 https://discord.com/developers
