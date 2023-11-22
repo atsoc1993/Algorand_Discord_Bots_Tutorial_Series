@@ -79,7 +79,7 @@ cd .. ---Exit directory/Move back out from folder
 
 # Install Python
 https://www.python.org/downloads/
-SELECT THE ADD PYTHON TO PATH OPTION!!!
+(SELECT THE ADD PYTHON TO PATH OPTION!!!)
 
 # Install Visual Studio Code
 https://code.visualstudio.com/Download
