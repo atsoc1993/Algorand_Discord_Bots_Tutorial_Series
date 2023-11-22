@@ -9,15 +9,21 @@ python get-pip.py
 ```
 
 ## AIOHTTP --- USE BEFORE INSTALLING DISCORD.PY
-```pip install aiohttp>=3.9.0b0```
+```
+pip install aiohttp>=3.9.0b0
+```
 
 ## Discord.py
-```pip install discord.py```
+```
+pip install discord.py
+```
 
 ## Python AlgoSDK
-```pip3 install py-algorand-sdk```
+```
+pip3 install py-algorand-sdk
+```
 
-## UBUNTU TERMINAL INSTALLATIONS --- USE IN UBUNTU:
+### UBUNTU TERMINAL INSTALLATIONS --- USE IN UBUNTU:
 
 ## Algorand Node Installation
 ```sudo apt-get update
@@ -35,7 +41,8 @@ curl https://raw.githubusercontent.com/algorand/go-algorand/rel/stable/cmd/updat
 chmod 744 update.sh
 ./update.sh -i -c stable -p ~/node -d ~/node/data -n
 goal node start -d data 
-goal node catchup GetTheCatchPointFromLinkBelow -d data```
+goal node catchup GetTheCatchPointFromLinkBelow -d data
+```
 
 ## Catchpoint Link for Mainnet
 https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.catchpoint
