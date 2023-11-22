@@ -49,8 +49,11 @@ https://algorand-catchpoints.s3.us-east-2.amazonaws.com/channel/mainnet/latest.c
 
 # Algorand Node Commands
 goal node start -d data
+
 goal node restart -d data
+
 goal node stop -d data
+
 goal node catchup GetTheCatchPointFromLinkBelow -d data
 
 # Basic Terminal Commands
