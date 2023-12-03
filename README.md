@@ -6,3 +6,8 @@ In the first episode of building an Algorand blockchain-based Discord bot on a W
 https://www.youtube.com/watch?v=JjmH-KA7UcQ
 ```
 
+## EPISODE 2 -
+
+```
+```
+
