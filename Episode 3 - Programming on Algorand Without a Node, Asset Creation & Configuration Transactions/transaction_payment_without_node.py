@@ -19,22 +19,27 @@ params = SuggestedParams(
     gh=params_dict['genesis-hash'],
     flat_fee=True
 )
-sender = 'ENTER SENDER ADDRESS HERE'
-receiver = 'ENTER RECEIVER ADDRESS HERE'
-amt = algos_to_microalgos(0.001)
 
+sender = 'SENDER ADDRESS HERE'
 
-payment_tx = PaymentTxn(
-    sender=sender, sp=params, receiver=receiver, amt=amt, note="Test"
+# See get_private_key.py to obtain key from mnemonic phrase or generate new address, mnemonic, and obtain private key
+sender_private_key = 'SENDER PRIVATE KEY HERE'
+
+receiver = 'RECEIVER ADDRESS HERE'
+
+amt = algos_to_microalgos(ENTER ALGORAND AMOUNT HERE AS INTEGER) #eg algos_to_microalgos(0.0001)
+
+payment_txn = PaymentTxn(
+    sender=sender, sp=params, receiver=receiver, amt=amt, note="Enter a note here if needed otherwise leave blank"
 )
 
-signed_payment_tx = payment_tx.sign(sk_1)
-submit_tx_endpoint = '/v2/transactions'
-url = node_url + submit_tx_endpoint
-
+signed_payment_tx = payment_tx.sign(sender_private_key)
 encoded_tx = encoding.msgpack_encode(signed_payment_tx)
 binary_tx = base64.b64decode(encoded_tx)
 
+submit_tx_endpoint = '/v2/transactions'
+url = node_url + submit_tx_endpoint
 send_transaction = requests.post(url, data=binary_tx)
 response = send_transaction.json()
-print(response) # Q55B5BKFKNQCXDZCNDREXXZOZWJB24JBN2GKWPI5JAAEN7YB4IMQ
+
+print(response) # Prints transaction ID
