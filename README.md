@@ -5,7 +5,7 @@ In the first episode of building an Algorand blockchain-based Discord bot on a W
 https://www.youtube.com/watch?v=JjmH-KA7UcQ
 
 
-## EPISODE 2 - Registering and Payment Transactions
+## EPISODE 2 - Wallet Integration and Payment Transactions
 
 In this episode, we'll cover some basic Python concepts including variables, functions, calls, return statements, lists, dictionaries, conditional statements, and for loops. We will apply these concepts while creating a simple Discord bot for handling payment transactions, registering users' Algorand addresses, and accessing account information on the Algorand Blockchain."
 
