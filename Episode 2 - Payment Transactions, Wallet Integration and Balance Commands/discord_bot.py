@@ -84,7 +84,7 @@ async def pay(ctx):
         return
     
     receiver = users[user]["algowallet"] 
-    private_key = 'ENTER YOUR PRIVATE KEY HERE IN BASE64, NOT YOUR MNEMONIC'
+    private_key = 'ENTER YOUR PRIVATE KEY HERE IN BASE64, NOT YOUR MNEMONIC' # See get_private_key.py if unsure how to obtain private key
     sender_address = 'ENTER YOUR ADDRESS HERE TO FUND PAYMENTS TO USERS'
     try:
         algod_client = algod.AlgodClient(algod_token, algod_port)
