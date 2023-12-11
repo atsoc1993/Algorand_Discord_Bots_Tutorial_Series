@@ -42,4 +42,4 @@ url = node_url + submit_tx_endpoint
 send_transaction = requests.post(url, data=binary_tx)
 response = send_transaction.json()
 
-print(response) # Prints transaction ID
+print(response) # Prints transaction ID once confirmed
