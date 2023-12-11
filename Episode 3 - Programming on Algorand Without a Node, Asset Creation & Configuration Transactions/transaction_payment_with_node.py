@@ -11,7 +11,7 @@ algod_client = algod.AlgodClient(algod_token, algod_port)
 params = algod_client.suggested_params()
 sender = 'SENDER ADDRESS HERE'
 
- # See get_private_key.py to obtain key from mnemonic phrase or generate new address, mnemonic, and obtain private key
+# See get_private_key.py to obtain key from mnemonic phrase or generate new address, mnemonic, and obtain private key
 sender_private_key = 'SENDER PRIVATE KEY HERE'
 
 receiver = 'RECEIVER ADDRESS HERE'
