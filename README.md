@@ -11,7 +11,7 @@ In this episode, we'll cover some basic Python concepts including variables, fun
 
 https://www.youtube.com/watch?v=NTN8ERy6mkk
 
-## EPISODE 3 - [1/2] Coding Without Node, Creating Metadata Templates, Uploading Images to IPFS, Asset Creation Transactions
+## EPISODE 3 - [1/2] Pokemon Battle Discord Bot: Coding Without Node, Creating Metadata Templates, Uploading Images to IPFS, Asset Creation Transactions
 
 Create Pokémon-esque characters using ARC-69s on Algorand Blockchain— we’ll go over metadata templates, IPFS uploading for image hosting, list/dictionary review, and sending asset configuration transactions without a node! This is a two-part episode which will be followed by Episode 4, where we learn how to create a Pokemon battling Discord bot and alter properties of our Pokémon NFTs like experience, levels, and even make them evolve!
 
