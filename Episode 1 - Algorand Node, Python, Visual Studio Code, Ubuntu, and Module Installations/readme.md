@@ -68,6 +68,14 @@ goal node stop -d data (stops the node)
 goal node catchup GetTheCatchPointFromCatchPoointLink -d data (Catchup the node)
 ```
 
+# Obtaining your Algorand Node Token and Port
+'''
+#Enter the data directory from the root folder
+cd node/data
+cat algod.token ---Logs the token into the terminal
+cat algod.net ---Logs the port into the terminal
+'''
+
 # Basic Terminal Commands
 ```
 clear ---clears the terminal
@@ -76,6 +84,7 @@ ls ---list all folders available in this directory
 cd NameOfFolderHere ---enter the folder
 cd .. ---Exit directory/Move back out from folder
 rm -r NameOfFolderHere ---Delete a directory and all contents recursively
+cat ---use as a prefix to a filename to obtain contents as text in the terminal eg; cat algod.token
 ```
 
 ## LINKS:
