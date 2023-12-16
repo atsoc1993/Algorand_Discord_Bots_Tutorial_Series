@@ -5,6 +5,7 @@ import json
 algod_token = 'YOUR ALGORAND NODE TOKEN'
 algod_port = 'http://YOUR PORT GOES HERE'
 
+# This function requires arguments for your complete metadata template, URL link where your image is hosted, the asset's name and unit
 def create_asset(complete_template, url_for_IPFS, asset_name, asset_unit):
     algod_client = algod.AlgodClient(algod_token, algod_port)
     sender_address = 'Your Algorand Address Here' # This will be the creator address
