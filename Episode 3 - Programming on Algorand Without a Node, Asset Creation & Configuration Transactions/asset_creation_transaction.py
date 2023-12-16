@@ -1,10 +1,11 @@
 from algosdk.v2client import *
 from algosdk.transaction import AssetCreateTxn
+import json
 
 def create_asset(complete_template, url_for_IPFS, asset_name, asset_unit):
     algod_client = algod.AlgodClient(algod_token, algod_port)
-    sender_address = '355DZGHWORZRHM66NOJXOPG5OMD6NUJWFYLG5UDGBUVSCBH25PJ4BVEHJI'
-    sender_private_key = '1KcfFjzsHriFRo2CR//RV1xIUFDKT9k3fl5pATEZGtXfejyY9nRzE7Pea5N3PN1zB+bRNi4WbtBmDSshBPrr0w=='
+    sender_address = 'Your Algorand Address Here' # This will be the creator address
+    sender_private_key = 'Your Private Key in Base64' # See get_private_key.py if you do not have your private key
     params = algod_client.suggested_params()
     
     asset_creation_tx = AssetCreateTxn(
