@@ -2,6 +2,9 @@ from algosdk.v2client import *
 from algosdk.transaction import AssetCreateTxn
 import json
 
+algod_token = 'YOUR ALGORAND NODE TOKEN'
+algod_port = 'http://YOUR PORT GOES HERE'
+
 def create_asset(complete_template, url_for_IPFS, asset_name, asset_unit):
     algod_client = algod.AlgodClient(algod_token, algod_port)
     sender_address = 'Your Algorand Address Here' # This will be the creator address
