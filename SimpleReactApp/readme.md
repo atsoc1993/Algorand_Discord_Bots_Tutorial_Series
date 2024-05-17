@@ -4,13 +4,10 @@
 
 ## What does this code do?
 
-This is a basic react front-end and python back-end that displays a button at the top left corner 
-
-The button has the text "Get Last Block Info" on it
-
-Clicking the button, when the backend.py file is running, will obtain in a dictionary format the:
-- Last round number
-- All transaction ID's for the last round
+This is a basic react front-end and python back-end for educational purposes that:
+- Displays a button at the top left corner 
+- The button has the text "Get Last Block Info" on it
+- Clicking the button, when the backend.py file is running, will obtain from the backend in a dictionary format the: last round number and all transaction ID's for the last round
 
 The front-end then iterates through the dictionary, where the key is the last round number
 and the value is a list of all transaction ID's, and displays them onto the webpage.
