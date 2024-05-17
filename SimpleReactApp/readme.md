@@ -46,6 +46,6 @@ Upon running the file you should see something like this in the console:
 
 ![image](https://github.com/atsoc1993/Algorand_Discord_Bots_Tutorial_Series/assets/144640214/50567547-2025-46e5-97bb-cd9cfecaac69)
 
-You should now be able to click the button and see all the block transaction IDs pour in!
+## You should now be able to click the button and see all the block transaction IDs pour in and display on your front-end with every button click!
 
 
