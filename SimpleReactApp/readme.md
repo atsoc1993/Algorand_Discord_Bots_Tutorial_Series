@@ -38,6 +38,10 @@ In visual studio code, in the terminal line, copy and paste this terminal comman
 
 ```pip install requests Flask flask-cors```
 
+Create a new file and name it backend.py
+
+Copy and paste the contents of backend.py in this github to your backend.py
+
 You may now go to the top of visual studio code task bar, select "Run without debugging" and select the Python Interpreter if prompted.
 In the Episode 1 folder, there is a more in-depth guide to python installation as well as a video guide.
 Make sure to also install the extensions in visual studio code, like intellisense for syntax errors/color coding
