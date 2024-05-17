@@ -1,8 +1,9 @@
-## What does this do?
+## What does this code do?
+
 
 ![image](https://github.com/atsoc1993/Algorand_Discord_Bots_Tutorial_Series/assets/144640214/d307bf03-bdae-4f25-b179-89501095433e)
 
-This is a basic react front-end that displays a button at the top left corner
+This is a basic react front-end and python back-end that displays a button at the top left corner 
 
 The button has the text "Get Last Block Info" on it
 
