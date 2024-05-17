@@ -15,7 +15,7 @@ and the value is a list of all transaction ID's, and displays them onto the webp
 
 ## How do I use it?
 
-Use the terminal line command below to create a basic new react application:
+Assuming you have react setup on your PC already, use the terminal line command below to create a basic new react application:
 
 ```npx create-react-app nameYourAppHere```
 
