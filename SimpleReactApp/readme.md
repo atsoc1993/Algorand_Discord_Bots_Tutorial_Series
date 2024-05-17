@@ -8,8 +8,8 @@ This is a basic react front-end and python back-end that displays a button at th
 
 The button has the text "Get Last Block Info" on it
 
-Clicking the button, when the backend.py file is running, will obtain:
-- The last round number
+Clicking the button, when the backend.py file is running, will obtain in a dictionary format the:
+- Last round number
 - All transaction ID's for the last round
 
 The front-end then iterates through the dictionary, where the key is the last round number
