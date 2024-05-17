@@ -20,13 +20,13 @@ and the value is a list of all transaction ID's, and displays them onto the webp
 
 Use the terminal line command below to create a basic new react application:
 
-'''npx create-react-app nameYourAppHere'''
+```npx create-react-app nameYourAppHere```
 
 Then copy and paste the contents of App.js into the default App.js that comes with the react app in the /src folder
 
 Use the following command to start the app, you must be in the directory of the project:
 
-'''npm start'''
+```npm start```
 
 Make sure the backend.py file is running!
 
